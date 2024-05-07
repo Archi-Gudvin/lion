@@ -373,3 +373,133 @@ body {
   line-height: 180%;
   color: #787878;
 }
+
+/* contacts */
+
+.contacts {
+  border-bottom: 1px solid #DADADA;
+}
+
+.contacts-address {
+font-style: normal;
+}
+
+.contacts-item {
+  width: 370px;
+  flex-direction: column;
+  padding-top: 48px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 29px 29px;
+}
+
+.contacts-item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+.contacts-item-address {
+  background-image: url(../img/location_on.svg);
+}
+
+.contacts-item-phone {
+  background-image: url(../img/phone.svg);
+}
+
+.contacts-item-email {
+  background-image: url(../img/mail.svg);
+}
+
+.contacts-item-caption {
+  margin-bottom: 30px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 30.6px;
+  color: #1C1C1C;
+}
+
+.contacts-item-text {
+  max-width: 214px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 25.2px;
+  color: #787878;
+}
+
+.contacts-item-link {
+  font-size: 14px;
+  line-height: 25.2px;
+  color: #787878;
+}
+
+/* footer */
+
+.footer {
+  padding: 42px 0;
+}
+
+.footer-container {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-left {
+  align-items: center;
+}
+
+.footer-logo {
+  margin-right: 25px;
+}
+
+.footer-copy {
+  font-size: 12px;
+  line-height: 16.34px;
+  color: #787878;
+}
+
+.footer-right {
+  align-items: center;
+}
+
+.footer-nav {
+  margin-right: 56px;
+}
+
+.footer-list {
+
+}
+
+.footer-item:not(:last-child) {
+  margin-right: 28px;
+}
+
+.footer-link {
+  font-size: 15px;  
+  font-weight: 600;
+  line-height: 20.43px;
+  color: #787878;
+}
+
+.social-link {
+  width: 24px;
+  height: 24px;
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.social-item:not(:last-child) {
+margin-right: 32px;
+}
+
+.social-link-twitter {
+  background-image: url(../img/twitter-logo.svg);
+}
+
+.social-link-linkedin {
+  background-image: url(../img/linkedin-logo.svg);
+}
+
+.social-link-mail {
+  background-image: url(../img/mail-logo.svg);
+}
